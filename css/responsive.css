@@ -1,0 +1,204 @@
+@media (min-width: 1200px) {
+  html {
+    font-size: 62.5%;
+  }
+  /* general reusable items */
+
+  .grid__column--3 {
+    gap: 1rem;
+  }
+
+  .skill__card {
+    height: 18rem;
+    width: 18rem;
+  }
+  .card-logo {
+    font-size: 3.2rem;
+  }
+  .skill__card--heading {
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+  /* project section */
+  .projects__card {
+    width: 34rem;
+  }
+  /* certification card */
+
+  .certificate__container--list {
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  /* general design */
+  .primary-heading {
+    font-size: 1.8rem;
+  }
+  .secondary--heading {
+    font-size: 2.4rem;
+  }
+  p {
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+  /* hero picture */
+  .hero__img {
+    height: 45rem;
+    width: 35rem;
+  }
+
+  /* about picture */
+  .about__left--image {
+    height: 40rem;
+    width: 35rem;
+  }
+
+  /* skill card */
+  .skill__card {
+    height: 15rem;
+    width: 15rem;
+  }
+  .card-logo {
+    font-size: 3.2rem;
+  }
+  .skill__card--heading {
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+  /* certification */
+  .certificate__container--list {
+    width: 100%;
+    padding: 1rem 0;
+  }
+
+  /* projects card */
+
+  .projects__card {
+    width: 25rem;
+  }
+  .projects__picture {
+    width: 100%;
+    height: 18rem;
+  }
+  .projects__description {
+    margin-top: 2rem;
+  }
+  .projects__description h3 {
+    font-size: 1.8rem;
+  }
+  .projects__description p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+  /* navigation btn */
+
+  .navigation__Right {
+    display: none;
+  }
+
+  /* skill card */
+  .skill__card {
+    height: 15rem;
+    width: 14rem;
+  }
+  .card-logo {
+    font-size: 3.2rem;
+  }
+  .skill__card--heading {
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+  /* certification */
+  .certificate__container--list {
+    width: 100%;
+    padding: 1rem 0;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 50%;
+  }
+  .navigation {
+    display: none;
+  }
+  .grid__2__columns {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    justify-items: center;
+    align-items: center;
+  }
+  .grid__column--2 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .grid__column--3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: center;
+    justify-items: center;
+    gap: 5rem;
+  }
+  .certificate-grid__column--2 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  /* about image */
+  .about__left--box {
+    grid-column: 1 /-1;
+    justify-self: center;
+  }
+
+  /* skill card design */
+
+  .skill__card {
+    height: 24rem;
+    width: 26rem;
+  }
+  .card-logo {
+    font-size: 4.2rem;
+  }
+  .skill__card--heading {
+    font-size: 2.4rem;
+    font-weight: 400;
+  }
+  /* skill btn */
+
+  .skill__left--para a {
+    margin-bottom: 5rem;
+  }
+
+  /* here is the last card */
+  .mail__chimp {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+  /* project last card */
+
+  .planassit {
+    grid-column: 1 / -1;
+    justify-self: center;
+    align-self: self-end;
+  }
+
+  /* certification */
+  .certificate__container--list {
+    width: 100%;
+    padding: 1rem 0;
+  }
+
+  /* CTA / contact*/
+  .cta {
+    height: 100vh;
+  }
+  .contact__box--right-container {
+    padding: 2rem;
+  }
+}
